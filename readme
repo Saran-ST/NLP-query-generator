@@ -1,0 +1,24 @@
+# Natural Query Generator 📝🔍
+
+A web app that converts plain English into SQL queries.  
+Users can upload Excel files → backend converts data into a database → frontend lets you ask questions in plain English.
+
+## 🚀 Features
+- Upload Excel file (auto converts to SQLite)
+- NLP → SQL mapping
+- Dark pink + ocean blue animated UI
+- Query results displayed in interactive table
+
+## 🛠️ Tech Stack
+- **Frontend**: Next.js, TailwindCSS, Lucide Icons
+- **Backend**: Flask (Python), SQLite, Pandas
+- **NLP**: Rule-based English → SQL converter
+
+## ▶️ Run Locally
+### Backend
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # (Windows: venv\Scripts\activate)
+pip install -r requirements.txt
+python app.py
